@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none; /*chrome*/
+}
