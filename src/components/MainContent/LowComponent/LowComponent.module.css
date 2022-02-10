@@ -1,0 +1,53 @@
+.lowContentContiner{
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap-reverse;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 100vw;
+}
+
+.textContainer{
+    padding: 2%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    max-width: 27%;
+    margin-left: 5%;
+}
+
+.textContainer p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+}
+
+.imageIcon img{
+    width: 100%;
+}
+
+@media screen and (max-width: 962px){
+    .textContainer{
+        max-width: 60%;
+        transition: 0.4s;
+        font-size: 30px;
+    }
+    .textContainer p{
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 664px) {
+    .textContainer{
+        max-width: 95%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+}
