@@ -20,12 +20,11 @@
     position: absolute;
     content: '';
     top: 0;
-    bottom: 260px;
     left: 24%;
     z-index: -500;
-    width: 100%;
+    width: 76%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 
