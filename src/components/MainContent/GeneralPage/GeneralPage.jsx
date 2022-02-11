@@ -21,7 +21,7 @@ const GeneralPage = () => {
           </p>
           <div className={s.buttons}>
             <div>
-              <button className={s.buttonItemOne}> Purchase UI Kit </button>
+              <button className={s.buttonItemOne}> Purchase </button>
             </div>
             <div>
               <button className={s.buttonItemTwo}> Learn More </button>

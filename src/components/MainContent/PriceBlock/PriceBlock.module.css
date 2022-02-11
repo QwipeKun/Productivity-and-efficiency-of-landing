@@ -1,0 +1,114 @@
+.priceContainer {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+.devBlock{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+}
+
+.devBlock p{
+    color: yellow;
+    font-size: 11px;
+}
+
+.textContainer{
+    width: 30%;
+}
+
+.titleText {
+    color: #091133;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+p{
+    color: #6F7CB2;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.priceBlock{
+    color: #222F65;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+}
+
+.diskPriceBlock{
+    color: #37447E;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.diskButton{
+    color: #5D6970;
+    margin-top: 15%;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.buttonItem{
+    width: 189px;
+    font-weight: 500;
+    margin-top: 7px;
+    font-size: 14px;
+    line-height: 24px;
+    background: #111B47;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    outline: 2px solid #111B47;
+    outline-offset: -1px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.buttonItem:hover{
+    background-color: white;
+    color:#111B47;
+    transition: 0.8s;
+}
+
+@media screen and (max-width: 962px){
+.buttonItem{
+        width: 130px;
+        font-size: 12px;
+    }
+    .textContainer {
+        width: 50%;
+        transition: 0.4s;
+    }
+}
+
+@media screen and (max-width: 598px){
+    .buttonItem{
+            width: 130px;
+            font-size: 12px;
+        }
+        .textContainer {
+            width: 80%;
+            transition: 0.4s;
+        }
+    }
+    
+
+
+    

@@ -7,6 +7,7 @@ import GeneralPage from './components/MainContent/GeneralPage/GeneralPage';
 import LowComponent from './components/MainContent/LowComponent/LowComponent';
 import LowComponentThree from './components/MainContent/LowComponentThree/LowComponentThree';
 import LowComponentTwo from './components/MainContent/LowComponentTwo/LowComponentTwo';
+import PriceBlock from './components/MainContent/PriceBlock/PriceBlock';
 import TabsBlock from './components/MainContent/Tabs/Tabs';
 import "./index.css"
 
@@ -19,6 +20,7 @@ ReactDOM.render(
     <LowComponentTwo/>
     <LowComponentThree/>
     <TabsBlock/>
+    <PriceBlock/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
