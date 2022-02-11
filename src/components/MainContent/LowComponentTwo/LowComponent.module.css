@@ -1,12 +1,11 @@
 .lowContentContiner{
     font-family: 'Roboto', sans-serif;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-basis: 569px;
-    /* height: 60vh; */
     width: 100vw;
     margin-top: 5%;
 }
@@ -18,7 +17,7 @@
     font-size: 36px;
     line-height: 48px;
     max-width: 27%;
-    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .textContainer p{
@@ -29,34 +28,31 @@
     color: #6F7CB2;
 }
 
-.imageIcon{
-    height: 68%;
-}
-
 .imageIcon img{
     width: 100%;
 }
 
 @media screen and (max-width: 962px){
+    .lowContentContiner{
+        margin-top: 10%;
+    }
     .textContainer{
         max-width: 60%;
         transition: 0.4s;
         font-size: 30px;
-        margin-left: 0;
+        margin: 5% 0px;
     }
     .textContainer p{
         font-size: 15px;
     }
-    .lowContentContiner{
-        margin-top: 10%;
-    }
+
 
 }
 
 @media screen and (max-width: 664px) {
     .textContainer{
         max-width: 95%;
-        margin-top: 10%;
+        margin-top: 20%;
         margin-bottom: 5%;
         margin: 5%;
     }
