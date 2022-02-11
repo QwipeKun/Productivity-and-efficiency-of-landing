@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Productivity-and-efficiency-of-landing/static/css/main.3206c907.css",
+    "main.js": "/Productivity-and-efficiency-of-landing/static/js/main.0ba3be55.js",
+    "static/media/designer.svg": "/Productivity-and-efficiency-of-landing/static/media/designer.ea12c49c191c8e28bf3de6ef061f4182.svg",
+    "static/media/socialGirl.svg": "/Productivity-and-efficiency-of-landing/static/media/socialGirl.68e4186869a194caf53e97585d0970eb.svg",
+    "static/media/undraw_mobile_login_ikmv.svg": "/Productivity-and-efficiency-of-landing/static/media/undraw_mobile_login_ikmv.72ed20431957c97ed7b205ec8bd0cd6f.svg",
+    "static/media/happyGirl.svg": "/Productivity-and-efficiency-of-landing/static/media/happyGirl.c3058c4eb32706c6dcdbc77d69f624a3.svg",
+    "static/media/mentionGirl.svg": "/Productivity-and-efficiency-of-landing/static/media/mentionGirl.73f218283e39b84d4cb080501daa576b.svg",
+    "static/media/Icon.svg": "/Productivity-and-efficiency-of-landing/static/media/Icon.c9d9239a4f760edccf16cc5793520ec0.svg",
+    "index.html": "/Productivity-and-efficiency-of-landing/index.html",
+    "main.3206c907.css.map": "/Productivity-and-efficiency-of-landing/static/css/main.3206c907.css.map",
+    "main.0ba3be55.js.map": "/Productivity-and-efficiency-of-landing/static/js/main.0ba3be55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3206c907.css",
+    "static/js/main.0ba3be55.js"
+  ]
+}
